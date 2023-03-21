@@ -1,0 +1,16 @@
+<mvc:View controllerName="zbtp.navigationgollayan.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="idDetailsPage" title="{i18n>detailTitle}" showNavButton="true" navButtonPress="onNavBack"
+        class="sapUiResponsiveContentPadding">
+        <content>
+            <VBox id="idDetailsVbox">
+                <Label id="idInput1Label" text="{i18n>value1}" labelFor="idInput1" />
+                <Input id="idInput1" width="20%" editable="false" placeholder="{i18n>InputPlaceholder}"
+                    valueStateText="{i18n>ValueStateText}" />
+                <Label id="idInput2Label" text="{i18n>value2}" labelFor="idInput1" />
+                <Input id="idInput2" width="20%" editable="false" placeholder="{i18n>InputPlaceholder}"
+                    valueStateText="{i18n>ValueStateText}" />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
